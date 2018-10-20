@@ -11,7 +11,7 @@ this.info = getCharacter;
 function getCharacter(){
 return this.name + " " + this.race + " " + this.trait + " " + this.nice + " " + this.age + " " + this.home + this.hobby 
 }
-
+//hi
 
 var sarah = new character("sarah")
 sarah.race = 'ArgentinianaandPeruvian';
