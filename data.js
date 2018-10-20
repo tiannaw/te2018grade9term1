@@ -14,7 +14,7 @@ console.log(typeof rubiks);
 console.log(typeof computer);
 
 
-
+//hi
 
 let kendric = 5;
 let me = 62;
