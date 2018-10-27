@@ -4,9 +4,23 @@ const READLINE = require("readline-sync");
 // You cannot see an R-rated movie unless you are at least 18, or you are with
 // an adult. Write code that prints whether or not someone can see an
 // R-rated movie.
+let readline = require("readline-sync");
+
 console.log("*** Problem 1: R-rated ***");
 let age = READLINE.question("Enter your age: ");
-let withAdult = READLINE.question("Are you with an adult? (yes or no): ");
+let withAdult = false;
+
+if (age >= 18) {
+
+	console.log("Watch movie")
+
+
+}else{ 
+
+console.log("you need an adult")
+
+}
+
 
 
 // **** Problem 2: Umbrella ****
@@ -16,7 +30,17 @@ let withAdult = READLINE.question("Are you with an adult? (yes or no): ");
 // with them.
 console.log("*** Problem 2: Umbrella ***");
 let raining = READLINE.question("Is it raining? (yes or no): ");
-let thunderstorming = READLINE.question("Is it thunderstorming? (yes or no): ");
+let thunderstorming =  READLINE.question("Is it thunderstorming? (yes or no): ");
+
+if (raining == "yes" && thunderstorming == "no"){
+
+	console.log("bring umbrella")
+
+}else{ 
+
+		console.log("dont bring umbrella");
+
+}
 
 
 // **** Problem 3: Monkey Trouble ****
@@ -24,17 +48,25 @@ let thunderstorming = READLINE.question("Is it thunderstorming? (yes or no): ");
 // them are smiling, or if neither are smiling. Write code that prints if we
 // are in trouble.
 console.log("*** Problem 3: Monkey Trouble ***");
-let bubbles = READLINE.question("Is Bubbles smiling? (yes or no): ");
-let spankey = READLINE.question("Is Spankey smiling? (yes or no): ");
+//let bubbles = smiling
+//let spankey = not smiling 
 
 
 // **** Problem 4: First Place ****
 // Write code that prints the largest of three scores. If there is a tie for
 // first place, simply print one of the tie winners.
 console.log("*** Problem 4: First Place ***");
-let score1 = READLINE.question("Enter the first score: ");
-let score2 = READLINE.question("Enter the second score: ");
-let score3 = READLINE.question("Enter the third score: ");
+let score1 = 95;
+let score2 = 95;
+let score3 = 58;
+
+if ("a tie between score 1 and score 2"){
+
+	 console.log()
+}
+
+
+
 
 
 // **** Problem 5: Phone Shopping ****
