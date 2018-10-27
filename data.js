@@ -1,9 +1,13 @@
 // Example
+<<<<<<< HEAD
 
 let message = "my name is kendric";
 let rubiks = "i like food"
 let computer = "and anime"
 
+=======
+let message = "Tianna";
+>>>>>>> 512f3f52c6fa61f879bafa75cb75b33e97cc262f
 console.log(message);
 console.log(rubiks);
 console.log(computer);
@@ -44,4 +48,23 @@ console.log(kendric + me);
 
 
 
-// Type your code below!
+//type your code below!
+let name = "Bella";
+console.log(name);
+
+let place = "schoolyard";
+console.log(place);
+
+let name = "Alex":
+console.log(name);
+
+let alexDoesSports = true;
+console.log(alexDoesSports);
+let alexAndBellaFriends = false;
+
+let theirAge = 14;
+console.log(theirAge);
+let yearsOfSchoolYard = 50;
+console.log(yearsOfSchoolYard);
+let yearsTheyKnowEachOther = 3;
+console.log(yearsTheyKnowEachOther);
