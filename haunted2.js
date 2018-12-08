@@ -155,7 +155,8 @@ console.log("Thanks for playing!");
 else{
   let survivor = READLINE.question("will you save? (yes or no)")
   if (survivor == "y" || survivor == "yes"){
-    console.log( )
+    console.log(
+      )
 
 
   }

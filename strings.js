@@ -9,10 +9,15 @@ withoutEnd("java") → "av"
 withoutEnd("coding") → "odin"
 *******************************************************************************/
 
-function withoutEnd(str) {
+//function withoutEnd(str) {
+ //  let newStr = str.substring(1, str.length - 1);
 
-}
+  //  return newStr;
 
+ //  }
+
+
+//
 // Remove comment below to test this function.
 //testWithoutEnd();
 
@@ -29,11 +34,22 @@ frontAgain("ed") → true
 
 
 function frontAgain(str) {
+   let firstLetter = str.startsWith(0)
+   let lastLetter = str.endsWith(5)
+   
 
-}
+    if(str.indexOf(0,2) && str.charAt(str.length - 1) && str.charAt(str.length - 2))
+
+      return true 
+   
+   
+
+
+
+console.log(frontAgain("edited"));
 
 // Test this function.
-//testFrontAgain();
+testFrontAgain();
 
 /******************************************************************************
                                    deFront()
